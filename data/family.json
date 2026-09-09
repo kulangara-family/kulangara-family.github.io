@@ -1,0 +1,1973 @@
+[
+  {
+    "id": "root",
+    "ml": "Kunjabdullah",
+    "en": "Kunjabdullah",
+    "relml": "കുടുംബത്തിന്റെ ആദി വേരുകൾ",
+    "relen": "Family founding root",
+    "years": "",
+    "photo": "photos/root.svg",
+    "bio_ml": "കുടുംബത്തിന്റെ ആദ്യ തലമുറയുടെ ഓർമ്മകൾ ഇവിടെ ചേർക്കാം.",
+    "bio_en": "Add the family founding story here.",
+    "children": [
+      "root1",
+      "root2",
+      "root3",
+      "root4",
+      "root5",
+      "root6",
+      "root7",
+      "root8"
+    ],
+    "spouse": "roots"
+  },
+  {
+    "id": "roots",
+    "ml": "Khadija",
+    "en": "Khadija",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/roots.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "root1",
+      "root2",
+      "root3",
+      "root4",
+      "root5",
+      "root6",
+      "root7",
+      "root8"
+    ]
+  },
+  {
+    "id": "root1",
+    "ml": "Kunhammed",
+    "en": "Kunhammed",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r1a",
+      "r1b",
+      "r1c",
+      "r1d",
+      "r1e"
+    ],
+    "spouse": "root1s"
+  },
+  {
+    "id": "root1s",
+    "ml": "Kunhami",
+    "en": "Kunhami",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/root1s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r1a",
+      "r1b",
+      "r1c",
+      "r1d",
+      "r1e"
+    ],
+    "spouse": "root1"
+  },
+  {
+    "id": "r1a",
+    "ml": "Abdulla",
+    "en": "Abdulla",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r1a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r1a1",
+      "r1a2"
+    ],
+    "spouse": "r1as"
+  },
+  {
+    "id": "r1as",
+    "ml": "Jasmi",
+    "en": "Jasmi",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r1as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r1a1",
+      "r1a2"
+    ],
+    "spouse": "r1a"
+  },
+  {
+    "id": "r1a1",
+    "ml": "Mansoor Ahmad",
+    "en": "Mansoor Ahmad",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r1a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1a2",
+    "ml": "Ayman abdullla",
+    "en": "Ayman abdullla",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r1a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1b",
+    "ml": "Ameera",
+    "en": "Ameera",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r1b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r1b1",
+      "r1b2",
+      "r1b3",
+      "r1b4"
+    ],
+    "spouse": "r1bs"
+  },
+  {
+    "id": "r1bs",
+    "ml": "Nadeer",
+    "en": "Nadeer",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r1bs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r1b1",
+      "r1b2",
+      "r1b3",
+      "r1b4"
+    ],
+    "spouse": "r1b"
+  },
+  {
+    "id": "r1b1",
+    "ml": "Hiba Nadeer",
+    "en": "Hiba Nadeer",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r1b1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1b2",
+    "ml": "Hadi Nadeer",
+    "en": "Hadi Nadeer",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r1b2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1b3",
+    "ml": "Fathima Nadeer",
+    "en": "Fathima Nadeer",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r1b3.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1b4",
+    "ml": "Hamdan Nadeer",
+    "en": "Hamdan Nadeer",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r1b4.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1c",
+    "ml": "Ashkar",
+    "en": "Ashkar",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r1c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r1c1",
+      "r1c2"
+    ],
+    "spouse": "r1cs"
+  },
+  {
+    "id": "r1cs",
+    "ml": "Anseera",
+    "en": "Anseera",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r1cs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r1c1",
+      "r1c2"
+    ],
+    "spouse": "r1c"
+  },
+  {
+    "id": "r1c1",
+    "ml": "Haira Maryam",
+    "en": "Haira Maryam",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r1c1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1c2",
+    "ml": "Khadeeja Beevi",
+    "en": "Khadeeja Beevi",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r1c2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1d",
+    "ml": "Majida",
+    "en": "Majida",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r1d.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": "r1ds"
+  },
+  {
+    "id": "r1ds",
+    "ml": "Haris",
+    "en": "Haris",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r1ds.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1e",
+    "ml": "Sumayya",
+    "en": "Sumayya",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r1e.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r1e1",
+      "r1e2"
+    ],
+    "spouse": "r1es"
+  },
+  {
+    "id": "r1es",
+    "ml": "Nizamudheen",
+    "en": "Nizamudheen",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r1es.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r1e1",
+      "r1e2"
+    ],
+    "spouse": "r1e"
+  },
+  {
+    "id": "r1e1",
+    "ml": "Yamin Aizam",
+    "en": "Yamin Aizam",
+    "relml": "മകൻ/മകൾ",
+    "relen": "Child",
+    "years": "",
+    "photo": "photos/r1e1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r1e2",
+    "ml": "Ewaan Muhammad",
+    "en": "Ewaan Muhammad",
+    "relml": "മകൻ/മകൾ",
+    "relen": "Child",
+    "years": "",
+    "photo": "photos/r1e2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "root2",
+    "ml": "Ayisha",
+    "en": "Ayisha",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2a",
+      "r2b",
+      "r2c"
+    ],
+    "spouse": "root2s"
+  },
+  {
+    "id": "root2s",
+    "ml": "Ammad",
+    "en": "Ammad",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/root2s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2a",
+      "r2b",
+      "r2c"
+    ],
+    "spouse": "root2"
+  },
+  {
+    "id": "r2a",
+    "ml": "Jameela",
+    "en": "Jameela",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r2a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2a1",
+      "r2a2"
+    ],
+    "spouse": "r2as"
+  },
+  {
+    "id": "r2as",
+    "ml": "Ammad",
+    "en": "Ammad",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r2as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2a1",
+      "r2a2"
+    ],
+    "spouse": "r2a"
+  },
+  {
+    "id": "r2a1",
+    "ml": "Azarudin",
+    "en": "Azarudin",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r2a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r2a2",
+    "ml": "Suhaila",
+    "en": "Suhaila",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r2a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2a2a",
+      "r2a2b",
+      "r2a2c"
+    ],
+    "spouse": "r2a2s"
+  },
+  {
+    "id": "r2a2s",
+    "ml": "Noufal",
+    "en": "Noufal",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r2a2s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r2a2a",
+      "r2a2b",
+      "r2a2c"
+    ],
+    "spouse": "r2a2"
+  },
+  {
+    "id": "r2a2a",
+    "ml": "Muhammad Zayan",
+    "en": "Muhammad Zayan",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r2a2a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r2a2b",
+    "ml": "Zana Fathima",
+    "en": "Zana Fathima",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r2a2b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r2a2c",
+    "ml": "Zayra Bathool",
+    "en": "Zayra Bathool",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r2a2c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r2b",
+    "ml": "Rahmath",
+    "en": "Rahmath",
+    "relml": "മകൻ/മകൾ",
+    "relen": "Child",
+    "years": "",
+    "photo": "photos/r2b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2b1",
+      "r2b2"
+    ],
+    "spouse": "r2bs"
+  },
+  {
+    "id": "r2bs",
+    "ml": "Latheef",
+    "en": "Latheef",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r2bs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r2b1",
+      "r2b2"
+    ],
+    "spouse": "r2b"
+  },
+  {
+    "id": "r2b1",
+    "ml": "Rahima",
+    "en": "Rahima",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r2b1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2b1a"
+    ],
+    "spouse": "r2b1s"
+  },
+  {
+    "id": "r2b1s",
+    "ml": "Fazal Rahman",
+    "en": "Fazal Rahman",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r2b1s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r2b1a"
+    ],
+    "spouse": "r2b1"
+  },
+  {
+    "id": "r2b1a",
+    "ml": "Imad Rahman",
+    "en": "Imad Rahman",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r2b1a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r2b2",
+    "ml": "Rahil",
+    "en": "Rahil",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r2b2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r2c",
+    "ml": "Ashraf",
+    "en": "Ashraf",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r2c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r2c1",
+      "r2c2"
+    ],
+    "spouse": "r2cs"
+  },
+  {
+    "id": "r2cs",
+    "ml": "Nasarin",
+    "en": "Nasarin",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r2cs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r2c1",
+      "r2c2"
+    ],
+    "spouse": "r2c"
+  },
+  {
+    "id": "r2c1",
+    "ml": "Naira Fathima",
+    "en": "Naira Fathima",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r2c1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r2c2",
+    "ml": "Mazin Ashraf",
+    "en": "Mazin Ashraf",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r2c2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "root3",
+    "ml": "Moidu",
+    "en": "Moidu",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root3.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r3a",
+      "r3b",
+      "r3c",
+      "r3d",
+      "r3e",
+      "r3f"
+    ],
+    "spouse": "root3s"
+  },
+  {
+    "id": "root3s",
+    "ml": "Subaida",
+    "en": "Subaida",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/root3s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r3a",
+      "r3b",
+      "r3c",
+      "r3d",
+      "r3e",
+      "r3f"
+    ],
+    "spouse": "root3"
+  },
+  {
+    "id": "r3a",
+    "ml": "Habeeb",
+    "en": "Habeeb",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r3a1",
+      "r3a2",
+      "r3a3",
+      "r3a4"
+    ],
+    "spouse": "r3as"
+  },
+  {
+    "id": "r3as",
+    "ml": "Naseefa",
+    "en": "Naseefa",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r3as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r3a1",
+      "r3a2",
+      "r3a3",
+      "r3a4"
+    ],
+    "spouse": "r3a"
+  },
+  {
+    "id": "r3a1",
+    "ml": "Eva Mariyam",
+    "en": "Eva Mariyam",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3a2",
+    "ml": "Eesa",
+    "en": "Eesa",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3a3",
+    "ml": "Ahmmad Noah",
+    "en": "Ahmmad Noah",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3a3.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3a4",
+    "ml": "Zainab",
+    "en": "Zainab",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3a4.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3b",
+    "ml": "Arifa",
+    "en": "Arifa",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r3b1",
+      "r3b2",
+      "r3b3",
+      "r3b4"
+    ],
+    "spouse": "r3bs"
+  },
+  {
+    "id": "r3bs",
+    "ml": "Nabeel",
+    "en": "Nabeel",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r3bs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r3b1",
+      "r3b2",
+      "r3b3",
+      "r3b4"
+    ],
+    "spouse": "r3b"
+  },
+  {
+    "id": "r3b1",
+    "ml": "Muhammed Afeel",
+    "en": "Muhammed Afeel",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3b1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3b2",
+    "ml": "Muhammed Nabhan",
+    "en": "Muhammed Nabhan",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3b2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3b3",
+    "ml": "Fathima Nabeel",
+    "en": "Fathima Nabeel",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3b3.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3b4",
+    "ml": "Nuzaim",
+    "en": "Nuzaim",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3b4.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3c",
+    "ml": "Afeeda",
+    "en": "Afeeda",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r3c1",
+      "r3c2",
+      "r3c3"
+    ],
+    "spouse": "r3cs"
+  },
+  {
+    "id": "r3cs",
+    "ml": "Haneef",
+    "en": "Haneef",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r3cs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r3c1",
+      "r3c2",
+      "r3c3"
+    ],
+    "spouse": "r3c"
+  },
+  {
+    "id": "r3c1",
+    "ml": "Aiba Anam",
+    "en": "Aiba Anam",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3c1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3c2",
+    "ml": "Inaya Azin",
+    "en": "Inaya Azin",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3c2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3c3",
+    "ml": "Muhammed Zain",
+    "en": "Muhammed Zain",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3c3.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3d",
+    "ml": "Adil",
+    "en": "Adil",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3d.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": "r3ds"
+  },
+  {
+    "id": "r3ds",
+    "ml": "Lulu",
+    "en": "Lulu",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r3ds.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3e",
+    "ml": "Huda",
+    "en": "Huda",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r3e.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r3f",
+    "ml": "Althaf",
+    "en": "Althaf",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r3f.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "root4",
+    "ml": "Sooppy",
+    "en": "Sooppy",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root4.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r4a",
+      "r4b",
+      "r4c",
+      "r4d",
+      "r4e"
+    ],
+    "spouse": "root4s"
+  },
+  {
+    "id": "root4s",
+    "ml": "Subaida",
+    "en": "Subaida",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/root4s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r4a",
+      "r4b",
+      "r4c",
+      "r4d",
+      "r4e"
+    ],
+    "spouse": "root4"
+  },
+  {
+    "id": "r4a",
+    "ml": "Faheema",
+    "en": "Faheema",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r4a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r4a1",
+      "r4a2",
+      "r4a3"
+    ],
+    "spouse": "r4as"
+  },
+  {
+    "id": "r4as",
+    "ml": "Abdul Muneer",
+    "en": "Abdul Muneer",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r4as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r4a1",
+      "r4a2",
+      "r4a3"
+    ],
+    "spouse": ""
+  },
+  {
+    "id": "r4a1",
+    "ml": "Haizah Batool",
+    "en": "Haizah Batool",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r4a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r4a2",
+    "ml": "Mishqah Mehwish",
+    "en": "Mishqah Mehwish",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r4a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r4a3",
+    "ml": "Haya Fateen",
+    "en": "Haya Fateen",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r4a3.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r4b",
+    "ml": "Farseena",
+    "en": "Farseena",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r4b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r4b1",
+      "r4b2"
+    ],
+    "spouse": "r4bs"
+  },
+  {
+    "id": "r4bs",
+    "ml": "Muhammad Navas",
+    "en": "Muhammad Navas",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r4bs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r4b1",
+      "r4b2"
+    ],
+    "spouse": "r4b"
+  },
+  {
+    "id": "r4b1",
+    "ml": "Abdul Izan",
+    "en": "Abdul Izan",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r4b1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r4b2",
+    "ml": "Salmanul Faris",
+    "en": "Salmanul Faris",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r4b2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r4c",
+    "ml": "Faisa",
+    "en": "Faisa",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r4c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r4c1"
+    ],
+    "spouse": "r4cs"
+  },
+  {
+    "id": "r4cs",
+    "ml": "Muhammad Fasil",
+    "en": "Muhammad Fasil",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r4cs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r4c1"
+    ],
+    "spouse": "r4c"
+  },
+  {
+    "id": "r4c1",
+    "ml": "Ruwa Binth Fasil",
+    "en": "Ruwa Binth Fasil",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r4c1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r4d",
+    "ml": "Muhammed Fannan",
+    "en": "Muhammed Fannan",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r4d.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r4e",
+    "ml": "Muhammed Febin",
+    "en": "Muhammed Febin",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r4e.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "root5",
+    "ml": "Kareem",
+    "en": "Kareem",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root5.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r5a",
+      "r5b",
+      "r5c",
+      "r5d",
+      "r5e"
+    ],
+    "spouse": "root5s"
+  },
+  {
+    "id": "root5s",
+    "ml": "Sameena",
+    "en": "Sameena",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/root5s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r5a",
+      "r5b",
+      "r5c",
+      "r5d",
+      "r5e"
+    ],
+    "spouse": "root5"
+  },
+  {
+    "id": "r5a",
+    "ml": "Afrin",
+    "en": "Afrin",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r5a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r5a1",
+      "r5a2"
+    ],
+    "spouse": "r5as"
+  },
+  {
+    "id": "r5as",
+    "ml": "Shaheer",
+    "en": "Shaheer",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r5as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r5a1",
+      "r5a2"
+    ],
+    "spouse": "r5a"
+  },
+  {
+    "id": "r5a1",
+    "ml": "Fathima Ainam",
+    "en": "Fathima Ainam",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r5a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r5a2",
+    "ml": "Muhammad",
+    "en": "Muhammad",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r5a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r5b",
+    "ml": "Yusra",
+    "en": "Yusra",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r5b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r5b1"
+    ],
+    "spouse": "r5bs"
+  },
+  {
+    "id": "r5bs",
+    "ml": "Safal",
+    "en": "Safal",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r5bs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r5b1"
+    ],
+    "spouse": "r5b"
+  },
+  {
+    "id": "r5b1",
+    "ml": "Aiden Nooh",
+    "en": "Aiden Nooh",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r5b1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r5c",
+    "ml": "Shadha Sherin",
+    "en": "Shadha Sherin",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r5c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r5d",
+    "ml": "Muhammad Yaseen",
+    "en": "Muhammad Yaseen",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r5d.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r5e",
+    "ml": "Ayisha Airin",
+    "en": "Ayisha Airin",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r5e.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "root6",
+    "ml": "Maryam",
+    "en": "Maryam",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root6.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r6a",
+      "r6b",
+      "r6c",
+      "r6d"
+    ],
+    "spouse": "root6s"
+  },
+  {
+    "id": "root6s",
+    "ml": "Moossa",
+    "en": "Moossa",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/root6s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r6a",
+      "r6b",
+      "r6c",
+      "r6d"
+    ],
+    "spouse": "root6"
+  },
+  {
+    "id": "r6a",
+    "ml": "Noorudheen",
+    "en": "Noorudheen",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r6a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r6a1",
+      "r6a2"
+    ],
+    "spouse": "r6as"
+  },
+  {
+    "id": "r6as",
+    "ml": "Shamna",
+    "en": "Shamna",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r6as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r6a1",
+      "r6a2"
+    ],
+    "spouse": "r6a"
+  },
+  {
+    "id": "r6a1",
+    "ml": "Ziyan Muhammad",
+    "en": "Ziyan Muhammad",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r6a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6a2",
+    "ml": "Diya Noor",
+    "en": "Diya Noor",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r6a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6b",
+    "ml": "Nayeema",
+    "en": "Nayeema",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r6b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r6b1",
+      "r6b2",
+      "r6b3",
+      "r6b4"
+    ],
+    "spouse": "r6bs"
+  },
+  {
+    "id": "r6bs",
+    "ml": "Sidheeque",
+    "en": "Sidheeque",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r6bs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r6b1",
+      "r6b2",
+      "r6b3",
+      "r6b4"
+    ],
+    "spouse": "r6b"
+  },
+  {
+    "id": "r6b1",
+    "ml": "Nafla Fathima",
+    "en": "Nafla Fathima",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r6b1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6b2",
+    "ml": "Hasna Ayisha",
+    "en": "Hasna Ayisha",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r6b2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6b3",
+    "ml": "Izan Muhammad",
+    "en": "Izan Muhammad",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r6b3.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6b4",
+    "ml": "Hyza Maryam",
+    "en": "Hyza Maryam",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r6b4.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6c",
+    "ml": "Basima",
+    "en": "Basima",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r6c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r6c1",
+      "r6c2"
+    ],
+    "spouse": "r6cs"
+  },
+  {
+    "id": "r6cs",
+    "ml": "Afsal",
+    "en": "Afsal",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r6cs.jpeg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r6c1",
+      "r6c2"
+    ],
+    "spouse": "r6c"
+  },
+  {
+    "id": "r6c1",
+    "ml": "Hamish Ahamad",
+    "en": "Hamish Ahamad",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r6c1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6c2",
+    "ml": "Hyzin Azim",
+    "en": "Hyzin Azim",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r6c2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r6d",
+    "ml": "Salahudheen",
+    "en": "Salahudheen",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r6d.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "root7",
+    "ml": "Jameela",
+    "en": "Jameela",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root7.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r7a",
+      "r7b",
+      "r7c",
+      "r7d"
+    ],
+    "spouse": "root7s"
+  },
+  {
+    "id": "root7s",
+    "ml": "Ibrahim Palliyal",
+    "en": "Ibrahim Palliyal",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/root7s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r7a",
+      "r7b",
+      "r7c",
+      "r7d"
+    ],
+    "spouse": "root7"
+  },
+  {
+    "id": "r7a",
+    "ml": "Muhammed Rafi",
+    "en": "Muhammed Rafi",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r7a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r7a1",
+      "r7a2"
+    ],
+    "spouse": "r7as"
+  },
+  {
+    "id": "r7as",
+    "ml": "Mubashina",
+    "en": "Mubashina",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r7as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+     "r7a1",
+      "r7a2"],
+    "spouse": ""
+  },
+  {
+    "id": "r7a1",
+    "ml": "Haroon Zaman",
+    "en": "Haroon Zaman",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r7a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r7a2",
+    "ml": "Laiba Fatima",
+    "en": "Laiba Fatima",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r7a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r7b",
+    "ml": "Muhasina",
+    "en": "Muhasina",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r7b.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r7b1"
+    ],
+    "spouse": "r7bs"
+  },
+  {
+    "id": "r7bs",
+    "ml": "Ashar Puthiyaloth",
+    "en": "Ashar Puthiyaloth",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r7bs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r7b1"
+    ],
+    "spouse": "r7b"
+  },
+  {
+    "id": "r7b1",
+    "ml": "Muhammad Mazin",
+    "en": "Muhammad Mazin",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r7b1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r7c",
+    "ml": "Mubeena",
+    "en": "Mubeena",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r7c.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r7c1",
+      "r7c2"
+    ],
+    "spouse": "r7cs"
+  },
+  {
+    "id": "r7cs",
+    "ml": "Junaid",
+    "en": "Junaid",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/r7cs.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+       "r7c1",
+      "r7c2"
+    ],
+    "spouse": "r7c"
+  },
+  {
+    "id": "r7c1",
+    "ml": "Hyzin Ahnaf",
+    "en": "Hyzin Ahnaf",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r7c1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r7c2",
+    "ml": "Ruwa Mehween",
+    "en": "Ruwa Mehween",
+    "relml": "മകൾ",
+    "relen": "Daughter",
+    "years": "",
+    "photo": "photos/r7c2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r7d",
+    "ml": "Muhammed Ramees",
+    "en": "Muhammed Ramees",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r7d.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "root8",
+    "ml": "Hajara",
+    "en": "Hajara",
+    "relml": "കുടുംബ വേരുകൾ",
+    "relen": "Family root",
+    "years": "",
+    "photo": "photos/root8.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r8a",
+      "r8a1",
+      "r8a2"
+    ],
+    "spouse": "root8s"
+  },
+  {
+    "id": "root8s",
+    "ml": "Asees",
+    "en": "Asees",
+    "relml": "ഭർത്താവ്",
+    "relen": "Husband",
+    "years": "",
+    "photo": "photos/root8s.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+      "r8a",
+      "r8a1",
+      "r8a2"
+    ],
+    "spouse": ""
+  },
+  {
+    "id": "r8a",
+    "ml": "Muhammad Safeer",
+    "en": "Muhammad Safeer",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r8a.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [
+    ],
+    "spouse": "r8as"
+  },
+  {
+    "id": "r8as",
+    "ml": "Aadhiya",
+    "en": "Aadhiya",
+    "relml": "ഭാര്യ",
+    "relen": "Wife",
+    "years": "",
+    "photo": "photos/r8as.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r8a1",
+    "ml": "Muhammed Shafin",
+    "en": "Muhammed Shafin",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r8a1.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  },
+  {
+    "id": "r8a2",
+    "ml": "Muhammed Sinan",
+    "en": "Muhammed Sinan",
+    "relml": "മകൻ",
+    "relen": "Son",
+    "years": "",
+    "photo": "photos/r8a2.svg",
+    "bio_ml": "",
+    "bio_en": "",
+    "children": [],
+    "spouse": ""
+  }
+]
