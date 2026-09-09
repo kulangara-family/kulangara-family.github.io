@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+<defs><radialGradient id="g"><stop stop-color="#d9c28a"/><stop offset="1" stop-color="#0b3328"/></radialGradient><pattern id="p" width="80" height="80" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M40 5L75 40 40 75 5 40Z" fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="3"/></pattern></defs>
+<rect width="900" height="900" fill="url(#g)"/><rect width="900" height="900" fill="url(#p)"/>
+<circle cx="450" cy="390" r="150" fill="#fff" fill-opacity=".16"/><circle cx="450" cy="335" r="72" fill="#fff" fill-opacity=".72"/><path d="M270 610c25-125 335-125 360 0" fill="#fff" fill-opacity=".72"/>
+<text x="450" y="790" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="34" font-weight="700">Laiba Fatima</text></svg>
