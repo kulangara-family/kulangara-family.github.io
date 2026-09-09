@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#203b34">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Kulungara Family</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Serif+Malayalam:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+ --forest:#203b34;--forest-2:#2d5147;--sage:#dfe9df;--cream:#fbf7ef;--paper:#f4eee3;
+ --gold:#b98b4a;--gold-soft:#ead9b8;--ink:#26312d;--muted:#7a817b;--white:#fffdf9;
+ --line:#e6ddd0;--shadow:0 12px 32px rgba(34,49,43,.10);--shadow2:0 22px 60px rgba(25,42,36,.18);
+ --r:24px;--rs:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif;-webkit-font-smoothing:antialiased}
+body.lock{overflow:hidden}
+button,input{font:inherit}button{cursor:pointer}
+h1,h2,h3{font-family:"Playfair Display",serif;margin:0}
+[dir="rtl"]{direction:rtl}
+.ml{font-family:"Noto Serif Malayalam",serif}
+body.en [data-ml]{display:none!important}
+body.ml [data-en]{display:none!important}
+
+/* Welcome */
+.splash{position:fixed;inset:0;z-index:200;background:
+ radial-gradient(circle at 20% 15%,#496d5e 0,transparent 28%),
+ radial-gradient(circle at 90% 85%,#142d27 0,transparent 35%),
+ linear-gradient(145deg,#29483f,#162f29 72%);color:#fff;display:grid;place-items:center;padding:28px;transition:opacity .65s,visibility .65s}
+.splash.hide{opacity:0;visibility:hidden;pointer-events:none}
+.splash-art{position:absolute;inset:0;overflow:hidden;opacity:.16}
+.splash-art:before,.splash-art:after{content:"";position:absolute;border:1px solid #e6d5ad;border-radius:50%;width:260px;height:260px}
+.splash-art:before{left:-120px;top:16%;box-shadow:160px 110px 0 -1px transparent,420px 180px 0 -1px transparent}
+.splash-art:after{right:-140px;bottom:5%;width:330px;height:330px}
+.welcome{position:relative;z-index:1;width:min(430px,100%);text-align:center}
+.welcome .mini{display:inline-flex;align-items:center;gap:10px;color:#e9d8b5;text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:700}
+.welcome .mini:before,.welcome .mini:after{content:"";width:34px;height:1px;background:#c7a86e}
+.monogram{width:78px;height:78px;border:1px solid #d9bb80;border-radius:50%;display:grid;place-items:center;margin:24px auto;color:#e9d8b5;font:600 28px "Playfair Display",serif;background:#ffffff0c}
+.welcome h1{font-size:clamp(42px,13vw,64px);line-height:1.04}
+.welcome p{color:#c8d6cf;line-height:1.7;font-size:14px;margin:16px auto 0;max-width:330px}
+.enter{margin:32px auto 0;border:0;border-radius:999px;padding:15px 26px;background:#f4ead4;color:var(--forest);font-weight:700;box-shadow:0 12px 30px #071a1550;display:inline-flex;align-items:center;gap:10px;transition:transform .18s}
+.enter:active{transform:scale(.97)}
+.splash-note{font-size:11px;color:#9fb7ad;margin-top:16px}
+
+/* App chrome */
+.app{min-height:100vh;opacity:0;transform:translateY(10px);transition:opacity .6s .1s,transform .6s .1s}
+.app.ready{opacity:1;transform:none}
+.top{background:linear-gradient(145deg,var(--forest),#294b41);color:#fff;padding:18px 16px 30px;border-radius:0 0 30px 30px;box-shadow:var(--shadow2)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand-mark{width:42px;height:42px;border:1px solid #d4b97e;border-radius:50%;display:grid;place-items:center;color:#e5d09f;font:600 16px "Playfair Display",serif}
+.brand small{display:block;color:#abc0b7;font-size:10px;margin-top:1px}
+.brand strong{font:600 17px "Playfair Display",serif}
+.lang{display:flex;padding:3px;border:1px solid #ffffff20;background:#ffffff0d;border-radius:999px}
+.lang button{border:0;background:transparent;color:#cfe0d9;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700}
+.lang button.active{background:#f7efe0;color:var(--forest)}
+.hero{padding:30px 3px 0}
+.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:#bfcfc8;font-weight:700}
+.hero h1{font-size:39px;line-height:1.08;margin-top:6px}
+.hero p{font-size:13px;line-height:1.65;color:#bfd0c8;margin:10px 0 0;max-width:370px}
+.founders{display:inline-flex;align-items:center;gap:8px;margin-top:16px;background:#ffffff0d;border:1px solid #ffffff16;padding:8px 12px;border-radius:999px;color:#e8dbc0;font-size:11px}
+.founders b{color:#fff;font-weight:600}
+
+/* Main */
+.wrap{width:min(720px,100%);margin:-10px auto 0;padding:0 12px 100px;position:relative}
+.control-card{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:var(--shadow);position:sticky;top:8px;z-index:20}
+.search{position:relative}
+.search input{width:100%;border:1px solid var(--line);background:var(--paper);border-radius:15px;padding:13px 42px 13px 14px;outline:none;color:var(--ink);font-size:13px}
+.search input:focus{border-color:var(--gold);box-shadow:0 0 0 3px #b98b4a22}
+.clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:0;background:transparent;color:var(--muted);width:30px;height:30px;border-radius:50%;display:none}
+.quick{display:flex;gap:8px;margin-top:9px}
+.quick button{flex:1;border:1px solid var(--line);background:var(--white);color:var(--forest);border-radius:13px;padding:10px 8px;font-size:11px;font-weight:700}
+.quick button.primary{background:var(--forest);color:#f8efdc;border-color:var(--forest)}
+.stats{display:flex;gap:7px;margin-top:10px;overflow:auto;scrollbar-width:none}
+.stat{white-space:nowrap;background:var(--paper);color:var(--forest-2);border-radius:999px;padding:6px 10px;font-size:10px;font-weight:700}
+
+/* Family tree cards */
+.section-label{display:flex;align-items:center;gap:10px;margin:28px 3px 12px;color:var(--muted);font-size:11px;font-weight:700}
+.section-label:before,.section-label:after{content:"";height:1px;background:var(--line);flex:1}
+.root-card{background:linear-gradient(145deg,#fffdf8,#f4ead5);border:1px solid var(--gold-soft);border-radius:22px;padding:14px;box-shadow:var(--shadow);display:flex;align-items:center;gap:12px}
+.root-photo{width:64px;height:64px;border-radius:18px;object-fit:cover;background:#ddd7c9;flex:none}
+.root-card h2{font-size:20px;color:var(--forest)}
+.root-card .role{font-size:10px;color:var(--gold);font-weight:700;margin-top:3px}
+.root-card .hint{font-size:10px;color:var(--muted);margin-top:5px}
+.root-card .arrow{margin-left:auto;width:34px;height:34px;border-radius:50%;border:0;background:#ead9b8;color:var(--forest);font-size:18px;flex:none}
+
+.branches{display:grid;gap:12px}
+.branch{background:var(--white);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 7px 22px rgba(34,49,43,.06);transition:transform .2s,box-shadow .2s}
+.branch.open{box-shadow:var(--shadow)}
+.branch-head{width:100%;border:0;background:transparent;text-align:left;padding:13px;display:flex;align-items:center;gap:12px;color:inherit}
+.branch-head:active{background:#faf6ee}
+.branch-cover{width:58px;height:58px;border-radius:17px;object-fit:cover;background:#e9e4d9;flex:none}
+.branch-main{min-width:0;flex:1}
+.branch-title{font:600 18px "Playfair Display",serif;color:var(--forest);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.branch-meta{font-size:10px;color:var(--muted);margin-top:3px}
+.branch-badge{display:inline-block;margin-top:6px;background:var(--sage);color:var(--forest-2);border-radius:999px;padding:4px 7px;font-size:9px;font-weight:700}
+.chev{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--paper);color:var(--forest);display:grid;place-items:center;font-size:18px;transition:transform .25s,background .2s;flex:none}
+.branch.open .chev{transform:rotate(180deg);background:var(--gold-soft)}
+.branch-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}
+.branch.open .branch-body{grid-template-rows:1fr}
+.branch-inner{overflow:hidden}
+.detail{padding:0 13px 15px;border-top:1px solid var(--line)}
+.family-photo{margin:13px 0;border-radius:18px;overflow:hidden;height:145px;background:var(--paper);position:relative}
+.family-photo img{width:100%;height:100%;object-fit:cover}
+.family-photo .caption{position:absolute;left:10px;bottom:10px;background:#203b34df;color:#fff;padding:6px 9px;border-radius:9px;font-size:9px}
+.people-title{font-size:10px;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.09em;margin:13px 0 8px}
+.person-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.person{border:1px solid var(--line);background:#fffdf9;border-radius:15px;padding:10px;display:flex;align-items:center;gap:9px;text-align:left;min-width:0}
+.person:active{transform:scale(.99)}
+.avatar{width:43px;height:43px;border-radius:13px;object-fit:cover;background:#e8e2d8;flex:none}
+.person .nm{font-family:"Playfair Display",serif;font-size:13px;font-weight:600;color:var(--forest);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.person .rel{font-size:9px;color:var(--muted);margin-top:2px}
+.person .dot{margin-left:auto;color:var(--gold);font-size:13px}
+.generation{margin-top:12px;padding:11px 0 0 12px;border-left:2px solid var(--gold-soft)}
+.generation-head{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--muted);font-weight:700;margin-bottom:7px}
+.count{background:var(--paper);border-radius:999px;padding:3px 7px;color:var(--forest)}
+.nested{display:grid;gap:7px}
+.empty{background:var(--white);border:1px dashed var(--line);border-radius:20px;padding:30px;text-align:center;color:var(--muted);font-size:12px}
+.empty strong{display:block;font:600 20px "Playfair Display",serif;color:var(--forest);margin-bottom:4px}
+
+/* Profile sheet */
+.modal{position:fixed;inset:0;z-index:100;background:#13282099;backdrop-filter:blur(7px);display:none;align-items:flex-end;justify-content:center}
+.modal.show{display:flex;animation:fade .2s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.sheet{width:min(560px,100%);max-height:88vh;overflow:auto;background:var(--white);border-radius:28px 28px 0 0;box-shadow:var(--shadow2);animation:up .3s cubic-bezier(.2,.8,.2,1)}
+@keyframes up{from{transform:translateY(100%)}to{transform:none}}
+.sheet-top{background:linear-gradient(145deg,#f7ecd5,#fffaf0);padding:18px 18px 22px;text-align:center;border-bottom:1px solid var(--line);position:relative}
+.handle{width:38px;height:4px;border-radius:9px;background:#d7cdbc;margin:0 auto 17px}
+.close{position:absolute;right:14px;top:13px;width:34px;height:34px;border:0;border-radius:50%;background:#eadfca;color:var(--forest);font-size:20px}
+.sheet-top img{width:94px;height:94px;border-radius:25px;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 25px #29483f22}
+.sheet h2{font-size:25px;color:var(--forest);margin-top:10px}
+.sheet-role{font-size:11px;color:var(--gold);font-weight:700;margin-top:3px}
+.sheet-body{padding:18px}
+.bio{font-size:13px;line-height:1.7;color:#55605a}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:15px}
+.info-box{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px;font-size:11px;min-width:0}
+.info-box small{display:block;color:var(--muted);font-size:9px;margin-bottom:3px}
+.sheet-close{width:100%;border:0;background:var(--forest);color:#fff7e8;border-radius:14px;padding:12px;margin-top:16px;font-weight:700}
+
+/* Floating sound */
+.sound{position:fixed;right:15px;bottom:17px;z-index:90;width:52px;height:52px;border-radius:50%;border:1px solid #ffffff33;background:var(--forest);color:#ecd7a9;display:grid;place-items:center;box-shadow:var(--shadow2)}
+.sound svg{width:21px;height:21px}
+.sound.playing{box-shadow:0 0 0 5px #b98b4a20,var(--shadow2)}
+.footer{text-align:center;color:var(--muted);font-size:10px;padding:12px 20px 30px}
+
+@media(min-width:700px){
+ .top{padding-left:max(16px,calc((100% - 720px)/2 + 16px));padding-right:max(16px,calc((100% - 720px)/2 + 16px))}
+ .hero h1{font-size:48px}
+}
+@media(max-width:430px){
+ .person-grid{grid-template-columns:1fr}
+ .family-photo{height:125px}
+ .quick button{font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){
+ *{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body class="en lock">
+
+<div class="splash" id="splash">
+  <div class="splash-art"></div>
+  <div class="welcome">
+    <div class="mini">A family story</div>
+    <div class="monogram" id="splashMark">K</div>
+    <h1 data-en>Welcome home</h1>
+    <h1 data-ml class="ml">സ്വാഗതം</h1>
+    <p data-en>Meet the people, branches and generations that make the Kulungara family story special.</p>
+    <p data-ml class="ml">കുളങ്ങര കുടുംബത്തിന്റെ ശാഖകളും തലമുറകളും സ്നേഹത്തോടെ ഒരിടത്ത്.</p>
+    <button class="enter" id="enterBtn" onclick="enterFamily()"><span data-en>Enter family tree</span><span data-ml class="ml">കുടുംബത്തിലേക്ക് പ്രവേശിക്കുക</span> <span>→</span></button>
+    <div class="splash-note" data-en>Tap to begin • sound starts with your welcome</div>
+    <div class="splash-note ml" data-ml>തുടങ്ങാൻ ടാപ്പ് ചെയ്യൂ • സംഗീതം സ്വാഗതത്തോടൊപ്പം ആരംഭിക്കും</div>
+  </div>
+</div>
+
+<div class="app" id="app">
+<header class="top">
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark" id="mark">K</div>
+      <div><strong>Kulungara Family</strong><small>Our roots · our generations</small></div>
+    </div>
+    <div class="lang">
+      <button id="mlBtn" onclick="setLang('ml')">മലയാളം</button>
+      <button id="enBtn" class="active" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="eyebrow" data-en>A place for every branch</div>
+    <div class="eyebrow ml" data-ml>ഓരോ ശാഖയ്ക്കും ഒരു ഇടം</div>
+    <h1 data-en>Our family</h1><h1 data-ml class="ml">നമ്മുടെ കുടുംബം</h1>
+    <p data-en>Start with a family head. Tap any branch to gently reveal the people and generations inside.</p>
+    <p data-ml class="ml">ഓരോ കുടുംബത്തലവനിൽ നിന്നും തുടങ്ങാം. ഒരു ശാഖ ടാപ്പ് ചെയ്താൽ അതിലെ ആളുകളെയും തലമുറകളെയും കാണാം.</p>
+    <div class="founders"><b id="founderA">Kunjabdullah</b><span>·</span><b id="founderB">Khadija</b></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="control-card">
+    <div class="search">
+      <input id="search" type="search" autocomplete="off" placeholder="Search a name / പേര് തിരയുക…" oninput="searchTree(this.value)">
+      <button id="clearBtn" class="clear" onclick="clearSearch()" aria-label="Clear search">×</button>
+    </div>
+    <div class="quick">
+      <button class="primary" onclick="expandAll()" data-en>Open all branches</button>
+      <button class="primary ml" onclick="expandAll()" data-ml>എല്ലാം തുറക്കുക</button>
+      <button onclick="collapseAll()" data-en>Close all</button>
+      <button onclick="collapseAll()" class="ml" data-ml>എല്ലാം അടയ്ക്കുക</button>
+    </div>
+    <div class="stats">
+      <span class="stat" id="countStat">0 members</span>
+      <span class="stat" id="genStat">0 generations</span>
+      <span class="stat" id="branchStat">0 branches</span>
+    </div>
+  </section>
+
+  <div class="section-label"><span data-en>Family beginning</span><span data-ml class="ml">കുടുംബത്തിന്റെ തുടക്കം</span></div>
+  <button class="root-card" id="rootCard" onclick="openProfile('root')">
+    <img class="root-photo" id="rootPhoto" src="photos/root.svg" onerror="this.onerror=null;this.src='photos/PLACEHOLDER.svg'" alt="">
+    <div>
+      <h2 id="rootName">Kunjabdullah</h2>
+      <div class="role" data-en>Family founding root</div><div class="role ml" data-ml>കുടുംബത്തിന്റെ ആദി വേരുകൾ</div>
+      <div class="hint" data-en>Tap for the family story</div><div class="hint ml" data-ml>കുടുംബത്തിന്റെ വിവരങ്ങൾ കാണാൻ ടാപ്പ് ചെയ്യൂ</div>
+    </div>
+    <span class="arrow">→</span>
+  </button>
+
+  <div class="section-label"><span data-en>Main branches</span><span data-ml class="ml">പ്രധാന ശാഖകൾ</span></div>
+  <section id="tree" class="branches" aria-live="polite"></section>
+</main>
+<div class="footer" data-en>Every person remains in the family record; details open only when you choose to explore them.</div>
+<div class="footer ml" data-ml>കുടുംബത്തിലെ എല്ലാ വ്യക്തികളും രേഖയിൽ ഉൾപ്പെട്ടിരിക്കുന്നു; നിങ്ങൾ തിരഞ്ഞെടുക്കുമ്പോൾ മാത്രം വിശദാംശങ്ങൾ തുറക്കും.</div>
+</div>
+
+<button class="sound" id="soundBtn" onclick="toggleBgm()" aria-label="Mute music">
+<svg id="soundOn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v4h4l5 4V6l-5 4H4Z"/><path d="M16 9.5a4 4 0 0 1 0 5"/><path d="M18.5 7a7.5 7.5 0 0 1 0 10"/></svg>
+<svg id="soundOff" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v4h4l5 4V6l-5 4H4Z"/><path d="m17 9 4 6"/><path d="m21 9-4 6"/></svg>
+</button>
+
+<div class="modal" id="modal" onclick="if(event.target===this)closeProfile()">
+  <article class="sheet" role="dialog" aria-modal="true" aria-labelledby="profileName">
+    <div id="profileContent"></div>
+  </article>
+</div>
+
+<script>
+let family=[],byId={},lang=localStorage.getItem('familyLang')||'en',openBranches=new Set();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const label=p=>lang==='ml'?(p?.ml||p?.en):(p?.en||p?.ml);
+const relation=p=>lang==='ml'?(p?.relml||p?.relen):(p?.relen||p?.relml);
+const photo=p=>p?.photo||'photos/PLACEHOLDER.svg';
+
+function setLang(l){
+ lang=l; document.body.className=l+(document.body.classList.contains('lock')?' lock':'');
+ $('mlBtn').classList.toggle('active',l==='ml'); $('enBtn').classList.toggle('active',l==='en');
+ localStorage.setItem('familyLang',l); render(); updateStats();
+}
+function getSpouse(p){
+ if(!p)return null;
+ if(p.spouse && byId[p.spouse]) return byId[p.spouse];
+ return family.find(x=>x.spouse===p.id) || null;
+}
+
+function parentPair(id){
+ const parent=family.find(x=>x.children?.includes(id));
+ if(!parent)return {parent:null,mother:null,father:null};
+ const spouse=getSpouse(parent);
+ const rel=(parent.relen||'').toLowerCase(), srel=(spouse?.relen||'').toLowerCase();
+ if(rel==='wife')return {parent,mother:parent,father:spouse};
+ if(rel==='husband')return {parent,mother:spouse,father:parent};
+ if(srel==='wife')return {parent,mother:spouse,father:parent};
+ if(srel==='husband')return {parent,mother:parent,father:spouse};
+ return {parent,mother:spouse,father:parent};
+}
+function personButton(p){
+ return `<button class="person" onclick="openProfile('${esc(p.id)}')">
+   <img class="avatar" src="${esc(photo(p))}" onerror="this.onerror=null;this.src='photos/PLACEHOLDER.svg'" alt="">
+   <span style="min-width:0;flex:1"><span class="nm">${esc(label(p))}</span><span class="rel">${esc(relation(p))}</span></span>
+   <span class="dot">›</span>
+ </button>`;
+}
+function descendantTree(ids){
+ if(!ids?.length)return '';
+ const people=ids.map(id=>byId[id]).filter(Boolean);
+ const pp=parentPair(people[0]?.id);
+ const parents=pp.father&&pp.mother?`${label(pp.father)} & ${label(pp.mother)}`:'';
+ const cards=people.map(p=>{
+   const spouse=getSpouse(p);
+   return personButton(p)+(spouse?personButton(spouse):'');
+ }).join('');
+ return `<div class="generation">
+   <div class="generation-head"><span>${parents?esc(parents): (lang==='ml'?'അടുത്ത തലമുറ':'Children')}</span><span class="count">${people.length}</span></div>
+   <div class="nested">${cards}</div>
+   ${people.map(p=>p.children?.length?descendantTree(p.children):'').join('')}
+ </div>`;
+}
+function branch(id){
+ const p=byId[id]; if(!p)return '';
+ const spouse=getSpouse(p), count=p.children?.length||0, open=openBranches.has(id);
+ return `<article class="branch ${open?'open':''}" data-branch="${esc(id)}" data-search="${esc((p.ml||'')+' '+(p.en||'')+' '+(spouse?.ml||'')+' '+(spouse?.en||''))}">
+   <button class="branch-head" onclick="toggleBranch('${esc(id)}')" aria-expanded="${open}">
+     <img class="branch-cover" src="${esc(photo(p))}" onerror="this.onerror=null;this.src='photos/PLACEHOLDER.svg'" alt="">
+     <span class="branch-main">
+       <span class="branch-title">${esc(label(p))}</span>
+       <span class="branch-meta">${esc(relation(p))}</span>
+       <span class="branch-badge">${count?count+' '+(lang==='ml'?'മക്കൾ':'children'):(lang==='ml'?'വിശദാംശങ്ങൾ':'Tap to explore')}</span>
+     </span>
+     <span class="chev">⌄</span>
+   </button>
+   <div class="branch-body"><div class="branch-inner">
+     <div class="detail">
+       <div class="family-photo">
+         <img src="${esc(photo(p))}" onerror="this.onerror=null;this.src='photos/PLACEHOLDER.svg'" alt="">
+         <span class="caption">${esc(spouse?`${label(p)} & ${label(spouse)}`:label(p))}</span>
+       </div>
+       ${spouse?`<div class="people-title">${lang==='ml'?'കുടുംബം':'Family unit'}</div><div class="person-grid">${personButton(p)}${personButton(spouse)}</div>`:''}
+       <div class="people-title">${lang==='ml'?'അടുത്ത തലമുറ':'Next generation'}</div>
+       ${count?descendantTree(p.children):`<div class="empty">${lang==='ml'?'കൂടുതൽ മക്കളുടെ വിവരങ്ങൾ ചേർത്തിട്ടില്ല.':'No children are listed for this branch yet.'}</div>`}
+     </div>
+   </div></div>
+ </article>`;
+}
+function render(){
+ const root=byId.root;
+ if(!root){$('tree').innerHTML='<div class="empty"><strong>Family data unavailable</strong>Please start the local server and make sure data/family.json is available.</div>';return}
+ $('rootName').textContent=label(root); $('rootPhoto').src=photo(root);
+ const spouse=getSpouse(root);
+ $('founderA').textContent=label(root); $('founderB').textContent=spouse?label(spouse):'';
+ $('mark').textContent=((root.en||root.ml||'K')[0]+(spouse?.en||spouse?.ml||'')[0]).toUpperCase();
+ $('splashMark').textContent=$('mark').textContent;
+ $('tree').innerHTML=(root.children||[]).map(branch).join('');
+ const q=$('search').value.trim(); if(q)applySearch(q);
+}
+function toggleBranch(id){openBranches.has(id)?openBranches.delete(id):openBranches.add(id);render()}
+function expandAll(){family.forEach(p=>p.children?.length&&openBranches.add(p.id));render()}
+function collapseAll(){openBranches.clear();render()}
+function updateStats(){
+ $('countStat').textContent=`${family.length} ${lang==='ml'?'അംഗങ്ങൾ':'members'}`;
+ let max=1;(function walk(id,d){max=Math.max(max,d);(byId[id]?.children||[]).forEach(c=>walk(c,d+1))})('root',1);
+ $('genStat').textContent=`${max} ${lang==='ml'?'തലമുറകൾ':'generations'}`;
+ $('branchStat').textContent=`${byId.root?.children?.length||0} ${lang==='ml'?'പ്രധാന ശാഖകൾ':'main branches'}`;
+}
+function ancestorIds(id){
+ const out=[];let cur=id;
+ while(cur){out.push(cur);const p=family.find(x=>x.children?.includes(cur));cur=p?.id}
+ return out;
+}
+function searchTree(q){
+ $('clearBtn').style.display=q.trim()?'block':'none';
+ if(q.trim()){family.filter(p=>(p.ml+' '+p.en+' '+p.relml+' '+p.relen).toLowerCase().includes(q.toLowerCase())).forEach(p=>ancestorIds(p.id).forEach(id=>openBranches.add(id)))}
+ render();
+}
+function applySearch(q){
+ const low=q.toLowerCase();
+ let hits=0;
+ document.querySelectorAll('.branch').forEach(b=>{const yes=b.dataset.search.toLowerCase().includes(low)||b.innerText.toLowerCase().includes(low);b.style.display=yes?'':'none';if(yes)hits++});
+ if(!hits&&!document.querySelector('.empty.search-empty'))$('tree').insertAdjacentHTML('afterend',`<div class="empty search-empty"><strong>${lang==='ml'?'പേര് കണ്ടെത്താനായില്ല':'No person found'}</strong>${lang==='ml'?'മറ്റൊരു പേര് പരീക്ഷിക്കുക.':'Try another name.'}</div>`);
+ else document.querySelector('.search-empty')?.remove();
+}
+function clearSearch(){$('search').value='';$('clearBtn').style.display='none';render();$('search').focus()}
+
+function openProfile(id){
+ const p=byId[id];if(!p)return;
+ const spouse=getSpouse(p),pp=parentPair(id);
+ const kids=(p.children||[]).map(x=>byId[x]).filter(Boolean);
+ const bio=lang==='ml'?(p.bio_ml||'ഈ വ്യക്തിയുടെ കൂടുതൽ വിവരങ്ങൾ പിന്നീട് ചേർക്കാം.'):(p.bio_en||'More information about this person can be added later.');
+ const personLinks=(items, empty)=>items.length
+   ? items.map(x=>`<button class="relation-link" onclick="openProfile('${esc(x.id)}')">${esc(label(x))}<span>›</span></button>`).join('')
+   : `<span class="relation-empty">${esc(empty)}</span>`;
+ const info=(title,value)=>value?`<div class="info-box"><small>${title}</small>${value}</div>`:'';
+ $('profileContent').innerHTML=`<div class="sheet-top">
+   <div class="handle"></div><button class="close" onclick="closeProfile()" aria-label="Close">×</button>
+   <img src="${esc(photo(p))}" onerror="this.onerror=null;this.src='photos/PLACEHOLDER.svg'" alt="">
+   <h2 id="profileName">${esc(label(p))}</h2><div class="sheet-role">${esc(relation(p))}</div>
+   ${p.years?`<div class="sheet-role" style="color:var(--muted)">${esc(p.years)}</div>`:''}
+ </div><div class="sheet-body">
+   <div class="bio">${esc(bio)}</div>
+   <div class="info">
+     ${pp.father?info(lang==='ml'?'അച്ഛൻ':'Father',`<button class="relation-link" onclick="openProfile('${esc(pp.father.id)}')">${esc(label(pp.father))}<span>›</span></button>`):''}
+     ${pp.mother?info(lang==='ml'?'അമ്മ':'Mother',`<button class="relation-link" onclick="openProfile('${esc(pp.mother.id)}')">${esc(label(pp.mother))}<span>›</span></button>`):''}
+     ${info(lang==='ml'?'മക്കൾ':'Sons / Daughters',personLinks(kids,lang==='ml'?'ഇല്ല':'None listed'))}
+     ${info(lang==='ml'?'ഭർത്താവ് / ഭാര്യ':'Husband / Wife',spouse?`<button class="relation-link" onclick="openProfile('${esc(spouse.id)}')">${esc(label(spouse))}<span>›</span></button>`:`<span class="relation-empty">${lang==='ml'?'ഇല്ല':'None listed'}</span>`)}
+   </div>
+   <button class="sheet-close" onclick="closeProfile()">${lang==='ml'?'അടയ്ക്കുക':'Close'}</button>
+ </div>`;
+ $('modal').classList.add('show');document.body.classList.add('lock');
+}
+function closeProfile(){$('modal').classList.remove('show');if(!$('splash').classList.contains('hide'))document.body.classList.add('lock');else document.body.classList.remove('lock')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeProfile()});
+
+/* Background music: use your own audio/family-bgm.mp3 when present.
+   If it is absent, a very soft generated drone keeps the page functional. */
+let audioCtx=null,drone=null,fileEl=null,playing=false;
+async function startFile(){
+ try{fileEl=new Audio('audio/family-bgm.mp3');fileEl.loop=true;fileEl.volume=.32;await fileEl.play();return true}catch(e){if(fileEl){fileEl=null}return false}
+}
+function startDrone(){
+ audioCtx=new(window.AudioContext||window.webkitAudioContext)();
+ const master=audioCtx.createGain();master.gain.value=.0001;master.connect(audioCtx.destination);
+ const filter=audioCtx.createBiquadFilter();filter.type='lowpass';filter.frequency.value=850;filter.connect(master);
+ [110,110.6,165,220].map((f,i)=>{const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type=i%2?'triangle':'sine';o.frequency.value=f;g.gain.value=i?0.025:.055;o.connect(g);g.connect(filter);o.start();return o});
+ master.gain.exponentialRampToValueAtTime(.035,audioCtx.currentTime+1.5);drone={master};
+}
+function stopMusic(){
+ if(fileEl){fileEl.pause();fileEl=null}
+ if(audioCtx){const ctx=audioCtx,m=drone?.master;if(m){m.gain.exponentialRampToValueAtTime(.0001,ctx.currentTime+.5)}setTimeout(()=>ctx.close(),600);audioCtx=null;drone=null}
+}
+async function toggleBgm(){
+ if(playing){stopMusic();playing=false;updateSound();return}
+ const used=await startFile();if(!used)startDrone();playing=true;updateSound();
+}
+function updateSound(){$('soundBtn').classList.toggle('playing',playing);$('soundOn').style.display=playing?'':'none';$('soundOff').style.display=playing?'none':'';$('soundBtn').setAttribute('aria-label',playing?'Mute music':'Play music')}
+
+async function enterFamily(){
+ $('splash').classList.add('hide');$('app').classList.add('ready');document.body.classList.remove('lock');
+ /* Browser autoplay policies allow audio because this is called directly from the tap. */
+ await toggleBgm();
+}
+async function loadData(){
+ try{
+  const r=await fetch('data/family.json',{cache:'no-store'});if(!r.ok)throw Error(r.status);
+  family=await r.json();byId=Object.fromEntries(family.map(x=>[x.id,x]));
+  const root=byId.root;if(root){const s=getSpouse(root);$('founderA').textContent=label(root);$('founderB').textContent=s?label(s):''}
+  setLang(lang);
+ }catch(e){
+  $('tree').innerHTML=`<div class="empty"><strong>${lang==='ml'?'കുടുംബ വിവരങ്ങൾ ലഭ്യമല്ല':'Family data could not be loaded'}</strong><span>${lang==='ml'?'data/family.json ലഭ്യമാണെന്ന് ഉറപ്പാക്കുക.':'Make sure data/family.json is available when running the local server.'}</span></div>`;
+ }
+}
+setLang(lang);loadData();
+</script>
+</body>
+</html>
